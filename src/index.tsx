@@ -119,10 +119,10 @@ app.get('/', (c) => {
               Data Analyst with <span class="text-cyan-400 font-semibold">2+ years</span> specializing in financial, operational, and supply chain risk analysis. I transform raw, complex datasets into strategic intelligence that drives measurable business outcomes.
             </p>
             <p class="text-slate-400 leading-relaxed">
-              Experienced in Python, MySQL, and Excel for cleaning, modeling, and analyzing large datasets. Skilled in building dashboards that identify risk patterns, detect anomalies, and support strategic decision-making.
+              Experienced in Python, SQL, and Excel for cleaning, modeling, and analyzing large datasets. Skilled in building dashboards that identify risk patterns, detect anomalies, and support strategic decision-making.
             </p>
             <div class="flex flex-wrap gap-3 pt-4">
-              {['Python', 'MySQL', 'Power BI', 'Tableau', 'Pandas', 'Looker'].map((tool) => (
+              {['Python', 'SQL', 'Power BI', 'Tableau','Looker', 'Excel', 'Google Sheet'].map((tool) => (
                 <span class="skill-tag px-4 py-2 rounded-full border border-slate-700 bg-slate-800/50 text-slate-300 text-sm font-mono hover:border-cyan-500/50 hover:text-cyan-400 hover:bg-cyan-500/5 transition-all duration-300 cursor-default">
                   {tool}
                 </span>
@@ -192,7 +192,7 @@ app.get('/', (c) => {
                   </div>
                   <div class="text-slate-500 text-sm font-mono">Mumbai, India</div>
                   <div class="mt-4 flex md:justify-end gap-2 flex-wrap">
-                    {['Python', 'Power BI', 'Looker', 'MySQL'].map(t => (
+                    {['Python', 'Power BI', 'Looker', 'SQL'].map(t => (
                       <span class="text-xs px-2 py-1 rounded bg-slate-800 text-slate-400 font-mono">{t}</span>
                     ))}
                   </div>
@@ -298,7 +298,7 @@ app.get('/', (c) => {
                   </div>
                   <div class="text-slate-500 text-sm font-mono">Mumbai, India</div>
                   <div class="mt-4 flex md:justify-end gap-2 flex-wrap">
-                    {['Python', 'MySQL', 'Looker', 'Excel'].map(t => (
+                    {['Python', 'SQL', 'Looker', 'Excel'].map(t => (
                       <span class="text-xs px-2 py-1 rounded bg-slate-800 text-slate-400 font-mono">{t}</span>
                     ))}
                   </div>
@@ -319,7 +319,7 @@ app.get('/', (c) => {
 
                     <ul class="space-y-3">
                       {[
-                        { icon: '🧮', text: 'Analyzed financial data using Python, MySQL, Looker & Excel — driving insights that boosted operational efficiency by 15%.' },
+                        { icon: '🧮', text: 'Analyzed financial data using Python, SQL, Looker & Excel — driving insights that boosted operational efficiency by 15%.' },
                         { icon: '⚙️', text: 'Configured and enhanced finance modules within Workday, improving module accuracy by 95%.' },
                         { icon: '🔗', text: 'Collaborated with cross-functional teams to optimize data workflows, reducing processing errors by 20%.' },
                       ].map((item) => (
@@ -360,22 +360,22 @@ app.get('/', (c) => {
                 {
                   category: 'Languages',
                   color: 'cyan',
-                  skills: ['Python', 'MySQL', 'SQL (Intermediate)']
+                  skills: ['Python','Excel', 'GoogleSheet', 'SQL']
+                },
+                {
+                  category: 'BI & Visualization Tools',
+                  color: 'amber',
+                  skills: ['Power BI', 'Tableau', 'Looker Studio']
+                },
+                {
+                  category: 'Core Competencies',
+                  color: 'violet',
+                  skills: ['Risk Analysis', 'Financial Modeling', 'Supply Chain Analytics']
                 },
                 {
                   category: 'Frameworks & Libraries',
                   color: 'blue',
                   skills: ['Pandas', 'Matplotlib', 'Seaborn', 'Scikit-learn']
-                },
-                {
-                  category: 'BI & Visualization Tools',
-                  color: 'amber',
-                  skills: ['Power BI', 'Tableau', 'Looker Studio', 'Google Sheets']
-                },
-                {
-                  category: 'Core Competencies',
-                  color: 'violet',
-                  skills: ['Risk Analysis', 'Financial Modeling', 'Supply Chain Analytics', 'Excel']
                 },
               ].map((cat) => (
                 <div class="skill-category" data-color={cat.color}>
@@ -418,7 +418,7 @@ app.get('/', (c) => {
               desc: 'End-to-end supply chain risk dashboard tracking import pricing trends, lead times, shipment delays, and duty fluctuations across suppliers in Japan, China, and Europe.',
               metrics: ['₹5L Saved', '25% Fewer Errors', '3 Regions'],
               color: 'cyan',
-              tags: ['Python', 'Power BI', 'MySQL'],
+              tags: ['Python', 'Power BI', 'SQL'],
               icon: '🌐'
             },
             {
