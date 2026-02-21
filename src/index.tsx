@@ -122,7 +122,7 @@ app.get('/', (c) => {
               Experienced in Python, SQL, and Excel for cleaning, modeling, and analyzing large datasets. Skilled in building dashboards that identify risk patterns, detect anomalies, and support strategic decision-making.
             </p>
             <div class="flex flex-wrap gap-3 pt-4">
-              {['Python', 'SQL', 'Power BI', 'Tableau','Looker', 'Excel', 'Google Sheet'].map((tool) => (
+              {['Python', 'Excel', 'SQL', 'Power BI', 'Tableau','Looker','Google Sheet'].map((tool) => (
                 <span class="skill-tag px-4 py-2 rounded-full border border-slate-700 bg-slate-800/50 text-slate-300 text-sm font-mono hover:border-cyan-500/50 hover:text-cyan-400 hover:bg-cyan-500/5 transition-all duration-300 cursor-default">
                   {tool}
                 </span>
