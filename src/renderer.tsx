@@ -117,10 +117,9 @@ export const renderer = jsxRenderer(({ children }) => {
               ))}
             </div>
 
-            {/* Hire Me BUTTON (ONLY THIS GOES TO RESUME) */}
+            {/* Hire Me BUTTON */}
             <a
-              href="https://beige-harlie-66.tiiny.site/"
-              target="_blank"
+              href="#contact"
               class="hidden md:flex items-center gap-2 px-4 py-2 rounded-full border border-cyan-500/30 bg-cyan-500/5 text-cyan-400 text-xs font-mono tracking-wider hover:bg-cyan-500/10 hover:scale-105 active:scale-95 transition-all duration-300"
             >
               Hire Me →
