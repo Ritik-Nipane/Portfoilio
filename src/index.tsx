@@ -418,7 +418,7 @@ app.get('/', (c) => {
               desc: 'End-to-end supply chain risk dashboard tracking import pricing trends, lead times, shipment delays, and duty fluctuations across suppliers in Japan, China, and Europe.',
               metrics: ['₹5L Saved', '25% Fewer Errors', '3 Regions'],
               color: 'cyan',
-              tags: ['Python', 'Power BI', 'SQL'],
+              tags: ['Python','Excel', 'SQL','Power BI'],
               icon: '🌐'
             },
             {
@@ -429,7 +429,7 @@ app.get('/', (c) => {
               desc: 'Centralized 5,000+ bearing SKUs with automated MSQ, Safety Stock, and reorder level calculations using 1Y/6M/3M sales trend analysis. Cut overstocking by 15%.',
               metrics: ['5K+ SKUs', '15% Less Overstock', '20% Error Reduction'],
               color: 'amber',
-              tags: ['Excel', 'Python', 'Looker'],
+              tags: ['Excel', 'Python','SQL' 'Looker'],
               icon: '📦'
             },
             {
@@ -440,7 +440,7 @@ app.get('/', (c) => {
               desc: 'Unified Gold Loan Risk Dashboard providing visibility into credit risk indicators, IFA performance profiles, and portfolio-wide anomaly detection for strategic risk mitigation.',
               metrics: ['20% Efficiency Gain', '15% Better Accuracy', '5 Dashboards'],
               color: 'violet',
-              tags: ['Power BI', 'Looker', 'Python'],
+              tags: ['Python','Excel', 'SQL', 'Looker|Power BI' ],
               icon: '🏅'
             },
             {
@@ -451,7 +451,7 @@ app.get('/', (c) => {
               desc: 'Automated revenue, expense, cash flow, and P&L dashboards for early detection of loss-making months, cash shortages, and margin risks across product segments.',
               metrics: ['50+ Users', 'Real-time Alerts', 'Margin Insights'],
               color: 'blue',
-              tags: ['Power BI', 'Excel', 'Python'],
+              tags: ['Python', 'Excel','SQL','Power BI' ],
               icon: '💹'
             },
           ].map((project, i) => (
