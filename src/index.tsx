@@ -455,9 +455,9 @@ app.get('/', (c) => {
               icon: '💹'
             },
           ].map((project, i) => (
-            <div class="project-slide relative py-16 md:py-20 flex flex-col lg:flex-row items-center gap-0" data-project={project.id}>
+            <div class="project-slide relative min-h-screen flex flex-col lg:flex-row items-center gap-0" data-project={project.id}>
               {/* Left: Pinned info */}
-              <div class="project-info lg:w-5/12 px-8 lg:px-16 py-16 flex flex-col justify-center py-12 md:py-16">
+              <div class="project-info lg:w-5/12 px-8 lg:px-16 py-16 flex flex-col justify-center min-h-screen">
                 <div class="reveal-up">
                   <div class={`inline-flex items-center gap-2 px-3 py-1 rounded-full mb-6 project-badge-${project.color}`}>
                     <span class="text-lg">{project.icon}</span>
@@ -484,7 +484,7 @@ app.get('/', (c) => {
               </div>
 
               {/* Right: Mockup visual */}
-              <div class={`project-visual lg:w-7/12 py-12 md:py-16 flex items-center justify-center p-8 lg:p-16 project-visual-bg-${project.color}`}>
+              <div class={`project-visual lg:w-7/12 min-h-screen flex items-center justify-center p-8 lg:p-16 project-visual-bg-${project.color}`}>
                 <div class="project-mockup w-full max-w-2xl reveal-up">
                   <div class="relative rounded-2xl overflow-hidden border border-slate-700/50 shadow-2xl" style="background: rgba(8,12,24,0.95);">
                     {/* Browser bar */}
