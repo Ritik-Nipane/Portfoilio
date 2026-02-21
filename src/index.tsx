@@ -429,7 +429,7 @@ app.get('/', (c) => {
               desc: 'Centralized 5,000+ bearing SKUs with automated MSQ, Safety Stock, and reorder level calculations using 1Y/6M/3M sales trend analysis. Cut overstocking by 15%.',
               metrics: ['5K+ SKUs', '15% Less Overstock', '20% Error Reduction'],
               color: 'amber',
-              tags: ['Excel', 'Python','SQL' 'Looker'],
+              tags: ['Excel', 'Python','SQL', 'Looker'],
               icon: '📦'
             },
             {
